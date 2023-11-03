@@ -84,19 +84,10 @@ option.addEventListener("change", () => {
             renderUI(oceainaCountries);}
 });
 
-// _______________________________________________________________________________________________
 
 
 
-let isDarkMode = true;
 
-darkModeToggle.addEventListener("click", () => {
-    isDarkMode = !isDarkMode;
-
-    if (isDarkMode) {
-        body.classList.toggle("dark__mode");
-    } 
-}); 
 
 
 
