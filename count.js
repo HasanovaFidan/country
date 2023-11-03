@@ -26,7 +26,7 @@ function renderUI(data) {
         <div id="carting" class="card col-md-3" style="width: 24%;">
         <img src="${data[i].flags.png}" class="card-img-top" alt="">
                 <div class="card-body">
-                <h5><a href="detail.html?countryCode=${data[i].countryCode}">${data[i].name.common}</a></h5>
+                <h5><a href="detail.html?countryCode=${data[i].name.common}">${data[i].name.common}</a></h5>
                   <p class="card-text"><b>Population:</b>${data[i].population}</p>
                   <p class="card-text"><b>Region:</b>${data[i].region}</p>
                   <p class="card-text"><b>Capital:</b>${data[i].capital}</p>
@@ -58,31 +58,39 @@ option.addEventListener("change", () => {
             country.region === "Europe"
         );
         renderUI(europeCountries);
-    } else if (selectedContinent === "value2") {
+    } 
+    else if (selectedContinent === "value2") {
     
         const asiaCountries = allCountries.filter((country) =>
             country.region === "Asia"
         );
         renderUI(asiaCountries);
-    } else if (selectedContinent === "value3") {
+    } 
+    else if (selectedContinent === "value3") {
 
         const africaCountries = allCountries.filter((country) =>
             country.region === "Africa"
         );
         renderUI(africaCountries);
         
-    }else if (selectedContinent === "value4") {
+    }
+    else if (selectedContinent === "value4") {
 
-        const americiasCountries = allCountries.filter((country) =>
+        const americasCountries = allCountries.filter((country) =>
             country.region === "Americas"
-        );
-        renderUI(americiasCountries);}else if (selectedContinent === "value5") {
+        ); 
+        renderUI(americasCountries);}
+        else if (selectedContinent === "value5") {
 
-            const oceaniaCountries = allCountries.filter((country) =>
+            const oceainaCountries = allCountries.filter((country) =>
                 country.region === "Oceaina"
-            );
+            ); 
             renderUI(oceainaCountries);}
-});
+}); 
+
+// _______________________________________________________________________________________________
+
+
 
 
 
