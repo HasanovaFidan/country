@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -76,13 +75,14 @@ main{
 }
 #carting{
   margin-top: 40px;
-    width: 200px;
+    width: 300px;
     height: 420px;
-
+background-color: #fff;
     border: none;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden; 
+
    
   }
   img{
@@ -90,23 +90,54 @@ main{
     width: 100%;
     height: 50%;
   }
-  #kart{
-    gap: 180px;
-    display: flex;
-    margin-left: 20px;
-  }
+  /* #kart{
+    & :hover{
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+  } */
 
   
 .dark__mode {
     background-color: #000;
     color: #fff;
 }
-h5 a{
-text-decoration: none;
-color: #000000;
+a{
+  text-decoration: none;
 }
 
 body.dark-mode {
   background-color: #1a1a1a;
   color: #ffffff}
+h5 a{
+text-decoration: none;
+color: #000000;
+} 
+/* .cards row{
+  background-color: #fff;
+} */
 
+
+#content{
+  display: flex;
+gap: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+.imagedetail img{
+  width: 500px;
+  height: 400px;
+}
+#content p{
+  font-size: 30px;
+  margin-top: 40px;
+  color: red;
+
+}
+#content h5{
+  font-size: 30px;
+  margin-top: 40px;
+  color: rgb(0, 157, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
