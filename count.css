@@ -101,8 +101,9 @@ main{
     background-color: #000;
     color: #fff;
 }
-a{
-  text-decoration: none;
+h5 a{
+text-decoration: none;
+color: #000000;
 }
 
 body.dark-mode {
